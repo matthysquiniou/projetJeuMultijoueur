@@ -1,0 +1,201 @@
+{
+    "projects": {
+        "004733AE-0D69-32D5-3F6A-25130C0E20AC": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "42342C27-7E2D-532C-42E6-77C51C713644"
+            ],
+            "dependents": [
+                "3E340052-75E6-290F-3CD5-7EF370B621C9",
+                "3E4E5035-2428-1909-7F2A-79A951FA464F"
+            ],
+            "name": "LibReseau",
+            "property-lib": true,
+            "property-pch": true,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "3E340052-75E6-290F-3CD5-7EF370B621C9": {
+            "config-debug": {
+                "additionalDependencies": [
+                    "LibReseau.lib"
+                ],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [
+                    "$(SolutionDir)LibReseau\\x64\\$(Configuration)\\"
+                ],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [
+                    "LibReseau.lib"
+                ],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [
+                    "$(SolutionDir)LibReseau\\x64\\$(Configuration)\\"
+                ],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "004733AE-0D69-32D5-3F6A-25130C0E20AC",
+                "757D4F7B-58BE-0170-5B5B-2D4245890BF0",
+                "756D7D8D-7BD5-2B74-11E6-609108BE451C",
+                "75532DAA-4D93-3B79-4F91-65DB277B2096",
+                "42342C27-7E2D-532C-42E6-77C51C713644"
+            ],
+            "dependents": [],
+            "name": "Client",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": true
+        },
+        "3E4E5035-2428-1909-7F2A-79A951FA464F": {
+            "config-debug": {
+                "additionalDependencies": [
+                    "LibReseau.lib"
+                ],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [
+                    "$(SolutionDir)LibReseau\\x64\\$(Configuration)\\"
+                ],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [
+                    "LibReseau.lib"
+                ],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [
+                    "$(SolutionDir)LibReseau\\x64\\$(Configuration)\\"
+                ],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "004733AE-0D69-32D5-3F6A-25130C0E20AC",
+                "757D4F7B-58BE-0170-5B5B-2D4245890BF0",
+                "756D7D8D-7BD5-2B74-11E6-609108BE451C",
+                "75532DAA-4D93-3B79-4F91-65DB277B2096",
+                "42342C27-7E2D-532C-42E6-77C51C713644"
+            ],
+            "dependents": [],
+            "name": "Server",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": true
+        },
+        "42342C27-7E2D-532C-42E6-77C51C713644": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "757D4F7B-58BE-0170-5B5B-2D4245890BF0",
+                "756D7D8D-7BD5-2B74-11E6-609108BE451C",
+                "75532DAA-4D93-3B79-4F91-65DB277B2096"
+            ],
+            "dependents": [],
+            "name": "GameLib",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "75532DAA-4D93-3B79-4F91-65DB277B2096": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [],
+            "name": "cpu-render",
+            "property-lib": true,
+            "property-pch": true,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "756D7D8D-7BD5-2B74-11E6-609108BE451C": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [],
+            "name": "cpu-engine",
+            "property-lib": true,
+            "property-pch": true,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "757D4F7B-58BE-0170-5B5B-2D4245890BF0": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [],
+            "name": "cpu-core",
+            "property-lib": true,
+            "property-pch": true,
+            "property-vcpkg": false,
+            "property-window": false
+        }
+    },
+    "projects_name_to_guid": {
+        "Client": "3E340052-75E6-290F-3CD5-7EF370B621C9",
+        "GameLib": "42342C27-7E2D-532C-42E6-77C51C713644",
+        "LibReseau": "004733AE-0D69-32D5-3F6A-25130C0E20AC",
+        "Server": "3E4E5035-2428-1909-7F2A-79A951FA464F",
+        "cpu-core": "757D4F7B-58BE-0170-5B5B-2D4245890BF0",
+        "cpu-engine": "756D7D8D-7BD5-2B74-11E6-609108BE451C",
+        "cpu-render": "75532DAA-4D93-3B79-4F91-65DB277B2096"
+    },
+    "solution_guid": "3B5C6D73-2C88-47A8-23DF-2266597917B7",
+    "solution_name": "multiJoueur",
+    "startup_project": "",
+    "version": "2.0"
+}
